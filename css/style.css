@@ -1,0 +1,24 @@
+.main {
+    min-height: calc(100vh - 86px);
+}
+.footer {
+    height: 30px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.comment.new{
+    background: #ccffcc;
+    padding: 5px 20px;
+}
+.comment.edit {
+    background: #ccceff;
+    padding: 5px 20px;
+}
+.comment.delete {
+    background: #ffccd5;
+    padding: 5px 20px;
+}
